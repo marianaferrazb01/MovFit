@@ -9,6 +9,7 @@ import Favorites from "./pages/Favorites";
 import MyPlans from "./pages/MyPlans";
 import { initialPlans } from "./data/plans";
 
+
 export default function App() {
   const [plans, setPlans] = useState(initialPlans);
   const [activePage, setActivePage] = useState("inicio");
